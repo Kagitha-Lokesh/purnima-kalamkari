@@ -11,8 +11,9 @@ const Footer = () => {
                     {/* Brand Info */}
                     <div className="space-y-4">
                         <h3 className="text-3xl font-serif text-secondary mb-4">Purnima Kalamkari</h3>
-                        <p className="text-sm leading-relaxed">
-                            Authentic hand-painted Kalamkari textiles straight from our artisans to your wardrobe. Preserving Indian heritage through sustainable fashion.
+                        <p className="text-sm leading-relaxed whitespace-pre-line">
+                            Own Manufacturing. Assured Quality. Exclusive Designs.
+                            Authentic hand-painted Kalamkari crafted with care and tradition.
                         </p>
                         <div className="flex space-x-4 pt-2">
                             <a href="#" className="hover:text-accent transition-colors"><Instagram size={20} /></a>
@@ -49,11 +50,11 @@ const Footer = () => {
                         <ul className="space-y-4">
                             <li className="flex items-start">
                                 <MapPin size={20} className="mr-3 text-accent flex-shrink-0 mt-1" />
-                                <span>123 Artisan Street, Heritage District, Hyderabad 500001</span>
+                                <span>bus stand back side, Pedana 521366.</span>
                             </li>
                             <li className="flex items-center">
                                 <Phone size={20} className="mr-3 text-accent flex-shrink-0" />
-                                <span>+91 98765 43210</span>
+                                <span>+91 7032817065</span>
                             </li>
                             <li className="flex items-center">
                                 <Mail size={20} className="mr-3 text-accent flex-shrink-0" />

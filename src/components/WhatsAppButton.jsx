@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const WhatsAppButton = () => {
     // Using a dummy number for the template
-    const whatsappNumber = '918919961168';
+    const whatsappNumber = '917032817065';
     const defaultMessage = encodeURIComponent('Hello! I would like to know more about Purnima Kalamkari products.');
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${defaultMessage}`;
 

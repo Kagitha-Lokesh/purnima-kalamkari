@@ -30,7 +30,7 @@ const CartDrawer = () => {
         }
 
         const message = encodeURIComponent(messageBody);
-        const whatsappUrl = `https://wa.me/918919961168?text=${message}`;
+        const whatsappUrl = `https://wa.me/917032817065?text=${message}`;
         window.open(whatsappUrl, '_blank');
         setIsCheckoutModalOpen(false);
         setIsCartOpen(false); // Optionally close cart after redirect

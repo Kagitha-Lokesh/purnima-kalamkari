@@ -20,7 +20,7 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                 >
-                    Elegance Woven in Every Thread
+                    Own Manufacturing.
                 </motion.h1>
 
                 <motion.p
@@ -29,7 +29,7 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
                 >
-                    Discover authentic hand-painted Kalamkari and artisanal clothing that celebrates Indian heritage.
+                    Assured Quality. Exclusive Designs. Authentic hand-painted Kalamkari crafted with care and tradition.
                 </motion.p>
 
                 <motion.div
