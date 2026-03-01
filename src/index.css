@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply font-sans bg-secondary text-gray-900 antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif text-primary;
+  }
+}
+
+.kalamkari-pattern {
+  background-image: url('https://images.unsplash.com/photo-1605813813956-628d06bd2f62?q=80&w=2670&auto=format&fit=crop'); /* Placeholder pattern image */
+  background-size: cover;
+  background-position: center;
+}
