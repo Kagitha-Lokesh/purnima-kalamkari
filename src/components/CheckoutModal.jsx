@@ -82,7 +82,7 @@ const CheckoutModal = ({ isOpen, onClose, onSubmit, totalAmount }) => {
                                     value={formData.name}
                                     onChange={handleChange}
                                     className={`w-full px-4 py-2 border rounded-md focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-colors ${errors.name ? 'border-red-500' : 'border-gray-300'}`}
-                                    placeholder="Jane Doe"
+                                    placeholder="Your Name"
                                 />
                                 {errors.name && <p className="text-red-500 text-xs mt-1">{errors.name}</p>}
                             </div>
@@ -96,7 +96,7 @@ const CheckoutModal = ({ isOpen, onClose, onSubmit, totalAmount }) => {
                                     value={formData.mobile}
                                     onChange={handleChange}
                                     className={`w-full px-4 py-2 border rounded-md focus:ring-1 focus:ring-primary focus:border-primary outline-none transition-colors ${errors.mobile ? 'border-red-500' : 'border-gray-300'}`}
-                                    placeholder="9876543210"
+                                    placeholder="your Number"
                                 />
                                 {errors.mobile && <p className="text-red-500 text-xs mt-1">{errors.mobile}</p>}
                             </div>
